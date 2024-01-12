@@ -1,14 +1,14 @@
 package org.maven;
 
-public class hello{
-  public static void main(String args[]){
-    int a=10;
-    int b=9;
-    if(a==b){
-      System.out.println("A is equals to b");
+public class if_stat {
+    public static void main(String[] args) {
+        int x=10;
+        int y=10;
+        if(x == y){
+            System.out.println("x is equal to y");
+        }
+        else{
+            System.out.println("x is not equal to y");
+        }
     }
-    else
-    {
-      System.out.println("A is not equals to B");
-    }
-  }
+}
