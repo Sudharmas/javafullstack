@@ -5,8 +5,9 @@ public class do_while_loop {
 
         int i = 0;//initializing i = 0
         do {
-            System.out.println("i=" + i);
             i++;//incrementing value of i
+
+            System.out.println("i=" + i);
         } while (i < 10);
     }
 }
