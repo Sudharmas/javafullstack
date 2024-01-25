@@ -10,11 +10,11 @@ public class methods {
         
     }
     //we declare a method outside the main funtion and inside the class which we can run
-    public static void loop1(){//function declaration
+    public static void loop1(){//1st function declaration
         for (int i = 0; i < 5; i++) {
             System.out.println(i);
         }
-    }public static void loop2(){
+    }public static void loop2(){//2nd function declaration
         for (int i = 0; i < 5; i++) {
             System.out.println(i);
         }
