@@ -2,7 +2,7 @@ package org.maven;
 
 public class method_overloading {
     public static void main(String[] args) {
-
+// Method overloading occurs whenever there is same method name but used multiple times in same file or class
         System.out.println("area of square is:"+area(10,20));//passing 2 parameters
         System.out.println("area of square is:"+area(10));//passing only 1 parameter
         System.out.println("area of square is:"+area(10.0));//passing a parameter with floating point or decimal value
@@ -23,7 +23,7 @@ public class method_overloading {
 }
 
 /* output for this code*/
-// area of square is:200
-// area of square is:100
-// area of square is:100.0
-// area of square is:100.0
+// area of square is:200 ---->this will be the output if 2 parameters are passed
+// area of square is:100 ---->this will be the output if only one parameter with type integer is passed
+// area of square is:100.0 ---->this will be the output if decimal type parameter passed to method declarewd with double type
+// area of square is:100.0 ---->output for last line
