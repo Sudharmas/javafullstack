@@ -12,12 +12,12 @@ public class method_overriding extends override{
     }
 }
 class override{
-    public static void area(int b) {
+    public static void area(int b) {//overriding the method
         System.out.println("area is also equal to :" + b * b *b);
     }
 }
 class override1 extends override{
-    public static void area(int c){
+    public static void area(int c){//overriding the method
         System.out.println("Area is also even :"+ c*c*c*c);
     }
 }
