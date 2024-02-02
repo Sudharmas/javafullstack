@@ -11,6 +11,8 @@ public class getter_method_implementation {
 }
 
 /*
-output
-10 
-*/
+out put
+    5
+    */
+// NOTE: The output will be zero if we donot initialize the variable and if we access the variable 
+
