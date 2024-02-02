@@ -13,8 +13,3 @@ public class getter_methods {
     }
 }
 
-/*
-out put
-    5
-    */
-// NOTE: The output will be zero if we donot initialize the variable and if we access the variable 
