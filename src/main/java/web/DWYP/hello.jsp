@@ -1,3 +1,5 @@
+//this is a jsp file ,this is used to bulid webpages using java
+//this page can be written in both html and java codes using scriptlets
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -7,6 +9,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>hello world!</h1>
 </body>
 </html>
