@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%-- this code snippet showsa some of the scripts taht can be used inside jsp file which can be used to write code inside html file using " <% %> " tag--%>--%>
+<%-- this tag is used to write functions and print values and check relations --%>
 	<%!String message() {
 		return "studyeasy";
 	}%>
+
 	<%--we can also use script tag to declare variables and also write functions in it/java code in it. --%>
 	<%
 	int x = 25;
