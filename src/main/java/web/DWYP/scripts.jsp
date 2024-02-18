@@ -21,7 +21,8 @@
 	out.println(x);
 	//response.sendRedirect ("https://www.google.com");//used to redirect to another page
 	%>
-	<%=message()%>
+
+	<%=message()%>   <%-- this is also used to call a function and also write import statements--%>
 
 </body>
 </html>
