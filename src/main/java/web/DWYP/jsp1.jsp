@@ -11,7 +11,7 @@
 <body>
 <%-- here we are accessing the function s1 within class java1 --%>
 <%= new java1().s1() %>
-<%-- printing date using inbulit function inside a  package --%>
+<%-- printing date using inbulit function inside a  package called Date--%>
 <% out.print(new Date()); %>
 </body>
 </html>
