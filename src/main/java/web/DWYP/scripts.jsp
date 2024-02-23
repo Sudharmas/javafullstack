@@ -22,7 +22,7 @@
 	//response.sendRedirect ("https://www.google.com");//used to redirect to another page
 	%>
 
-	<%=message()%>   <%-- this is also used to call a function and also write import statements--%>
+	<%=message()%>   <%-- this is also used to call a function and also write import statements and call functions inside pacakges--%>
 
 </body>
 </html>
