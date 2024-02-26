@@ -6,7 +6,7 @@ public class Hellouser {
 	public static void main(String args[]) {
 		String name;
 		BufferedReader reader;
-
+		
 		reader = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("name = ");
 		try {
