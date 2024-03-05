@@ -7,6 +7,9 @@
 <title>Submit</title>
 </head>
 <body>
+<%-- request.getParameter() returns the value or parameter that is selected in web page and displayes in this page,it fetches the data using the name-identifier given inside ()
+,that is if name of an input tag is 'name' then it searches for parameter that has 'name' as its name-identifier. --%>
+<%-- example:- <input type="text" name="lastname"></input> => here name="lastname" ,therfore, name-identifier would be getParameter("lastname"); --%>
 Name:<%= request.getParameter("name") %><br/>
 gender:<%= request.getParameter("gender") %><br/>
 language:
