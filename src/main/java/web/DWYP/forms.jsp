@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-//Form tags used as used in html and action is directed to submit.jsp 
+<%-- Form tags used as used in html and action is directed to submit.jsp --%> 
 <form action="submit.jsp" method="post">
 Name:<input type="text" name="name"><br/>//input tags to take inputs
 gender :<input type="radio" name="gender" value="male">Male
@@ -22,7 +22,7 @@ country:<select name="country">//dropdown menu
 <option value="UK">UK</option>
 <option value="italy">Italy</option>
 </select>
-<input type="submit" value="submit">//when submitted redirects to submit.jsp
+<input type="submit" value="submit"> <%-- when submitted redirects to submit.jsp --%>
 </form>
 </body>
 </html>
