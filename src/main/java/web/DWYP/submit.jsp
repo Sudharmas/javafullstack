@@ -18,7 +18,7 @@ language:
 String[] language = request.getParameterValues("language");//we use getParameterValues() to get all values that are selected and store it in an array
 if(language!=null){
 	for(int i=0;i<language.length;i++){
-		out.println(language[i]);
+		out.println(language[i]);//printing all values stored in array of languages
 	}
 }
 %><br/>
