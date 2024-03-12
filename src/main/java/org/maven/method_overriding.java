@@ -7,12 +7,12 @@ public class method_overriding extends override{
         obj.area(10);
     }
 
-    public static void area(int a){
+    public static void area(int a){//area inside main class
         System.out.println("area is :"+ a*a);
     }
 }
 class override{
-    public static void area(int b) { //overriding the area
+    public static void area(int b) { //overriding the area ,inside another class
         System.out.println("area is also equal to :" + b * b *b);
     }
 }
