@@ -2,7 +2,7 @@ package classes;
 
 public class setter_method {
     private int x=5;
-
+// NOTE: we can use stter methods to implement encapsulation using java.
     // setter methods are used to set the values for private variavbles only if needed,else ther value cannot be changed.
     // syntax: public void set<var>(parameter){ this.var = var; }
     
