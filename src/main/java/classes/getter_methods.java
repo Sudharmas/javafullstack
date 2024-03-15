@@ -2,6 +2,7 @@ package classes;
 
 public class getter_methods {
     // here the variables are fdecalred as private ,and they are only accessible inside this class
+    // NOTE: we can also use getter methods for implementing encapsulation in java.
     private int x = 5;
     private  int y;
     private int z;
