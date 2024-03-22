@@ -7,7 +7,7 @@ public class do_while_loop {
         //do while loop is executes the do{} statement atleast once and then checks the while condition
         do {
             System.out.println("i=" + i);//printing value of i
-            i++;//incrementing value of i
+            i++;//incrementing value of i by 1
         } while (i < 10);
     }
 }
