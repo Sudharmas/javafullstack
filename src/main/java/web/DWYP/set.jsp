@@ -13,7 +13,6 @@
 <jsp:setProperty property="fname" name="Beans" value="sudharma" /><br/>   
 <!-- setProperty used to set values to variables ,we use a value member to set values. property is the name of variable to which the value to be set,and the value is the value for the varaible which is defined in property ,here property="fname" ,that is the value should be set for variable fname which is in get.jsp file-->
  <jsp:setProperty property="l_name" name="Beans" value="s" />
- <h1>values updated,refresh get.jsp file</h1>
- <!-- this will be displayed in webpage -->
+ <h1>values updated,refresh get.jsp file</h1> <!-- this will be displayed in webpage -->
 </body>
 </html>
