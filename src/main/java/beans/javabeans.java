@@ -4,7 +4,7 @@ public class javabeans {
 
 	private String fname;
 	private String l_name;
-
+//creating consructors to set and get names in get.jsp and se.jsp file
 	public javabeans() {
 		fname = fname;
 		l_name = l_name;
