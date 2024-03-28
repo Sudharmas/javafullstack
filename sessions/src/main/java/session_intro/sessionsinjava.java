@@ -32,6 +32,7 @@ public class sessionsinjava extends HttpServlet {
 		
 		if(username.equals("sudharma") && password.equals("12345")) {
 			request.getSession().invalidate();
+			// HttpSession is imported inbulit function to create sessions for a user for login and logouts
 			HttpSession newSession = request.getSession();
 			newSession.setMaxInactiveInterval(500);
 			response.sendRedirect("member.jsp");
