@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-member jsp file
+member jsp file.
 <br/>
 username:<%= request.getParameter("username") %><br/>
 password:<%= request.getParameter("password") %>
