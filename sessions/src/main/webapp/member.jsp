@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!-- this file will be displayed after redirecting -->
 member jsp file.
 <br/>
 username:<%= request.getParameter("username") %><br/>
