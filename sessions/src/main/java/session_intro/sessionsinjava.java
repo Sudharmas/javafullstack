@@ -20,7 +20,7 @@ public class sessionsinjava extends HttpServlet {
      */
     public sessionsinjava() {
         super();
-        // TODO Auto-generated constructor stub
+       
     }
 
 	/**
