@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login form</title>
 </head>
 <body>
 <!-- action of this form is submitted to sessioninjava file where username and password is checked and if correct a session will be created. -->
