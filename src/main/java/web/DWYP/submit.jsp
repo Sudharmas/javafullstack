@@ -11,7 +11,7 @@
 ,that is if name of an input tag is 'name' then it searches for parameter that has 'name' as its name-identifier. --%>
 <%-- example:- <input type="text" name="lastname"></input> => here name="lastname" ,therfore, name-identifier would be getParameter("lastname"); --%>
 Name:<%= request.getParameter("name") %><br/>
-gender:<%= request.getParameter("gender") %><br/>
+Gender:<%= request.getParameter("gender") %><br/>
 language:
 <%-- here we use an array to get and store all langauges that are marked in the webpage --%>
 <%
