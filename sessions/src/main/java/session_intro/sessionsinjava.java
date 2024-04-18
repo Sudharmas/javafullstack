@@ -14,7 +14,6 @@ import jakarta.servlet.http.HttpSession;
  */
 public class sessionsinjava extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
     /**
      * @see HttpServlet#HttpServlet()
      */
